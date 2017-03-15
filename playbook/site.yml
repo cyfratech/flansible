@@ -22,10 +22,10 @@
 #        - flask-restful-swagger
 #        - flower
 #        - redis
-    - name: install packages (pip)
-      become: yes
-      pip:
-        requirements: /vagrant/Flansible/requirements.txt
+#    - name: install packages (pip)
+#      become: yes
+#      pip:
+#        requirements: /vagrant/Flansible/requirements.txt
 
 
 

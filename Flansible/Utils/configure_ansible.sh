@@ -6,7 +6,7 @@ apt-get install git python-setuptools python-dev sshpass libffi-dev libssl-dev m
 easy_install pip
 pip install paramiko PyYAML jinja2 httplib2 requests lxml cssselect xmltodict
 pip install pywinrm
-pip install sphinx celery
+pip install sphinx celery flask flask_httpauth flask_restful flask_restful_swagger redis
 pip install requests --upgrade
 mkdir -p /opt/ansible
 cd /opt/ansible
